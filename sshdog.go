@@ -17,11 +17,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/GeertJohan/go.rice"
-	"github.com/matir/sshdog/daemon"
 	"os"
 	"strconv"
 	"strings"
+
+	"github.com/GeertJohan/go.rice"
+	"github.com/admpub/sshdog/daemon"
 )
 
 type Debugger bool
